@@ -14,13 +14,13 @@ yhbatch -n 64 -N 15 run_pmc_detectors.sh 64 15 $1 $2 $3 $4 $5 $6 $7
 "	-N -- number of nodes  
 
 ### Argument Description:
-$1= "ids"--Specify the file containing article ids of interest.
-$2= "idtype"--Specify the type of ids("pubmed" or "pmc").
-$3= "idmap"--Specify the mapping from PMID to PMCID
-$4= "pmc"--Specify the file with PMC XML paths
-$5= "input"--Specify the input folder
-$6= "output"--Specify the output folder
-$7="detector"--Specify the detector(Random/Shortest-Bucket/Round-Robin/tmVar/dnorm/Gnorm/), it determines the loading strategies to use or plugins to call.
+$1= "ids"--Specify the file containing article ids of interest.  
+$2= "idtype"--Specify the type of ids("pubmed" or "pmc").  
+$3= "idmap"--Specify the mapping from PMID to PMCID  
+$4= "pmc"--Specify the file with PMC XML paths  
+$5= "input"--Specify the input folder  
+$6= "output"--Specify the output folder  
+$7="detector"--Specify the detector(Random/Shortest-Bucket/Round-Robin/tmVar/dnorm/Gnorm/), it determines the loading strategies to use or plugins to call.  
  
 ## Example of related files:
 1.	Input File in PubTator Format:
