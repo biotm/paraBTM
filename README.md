@@ -27,7 +27,7 @@ $7="detector"--Specify the detector(Random/Shortest-Bucket/Round-Robin/tmVar/dno
 	\<PMID\>|t|\<TITLE\>  
 	\<PMID\>|a|\<ABSTRACT\>  
 	\<PMID\>\<tab\>\<OFFSET_START\>\<tab\>\<OFFSET_END\>\<tab\>\<Gene mention\>\<tab\>Gene\<tab\>\<Gene ID\>  
-2.	Pmc ids:
+2.	Pmc ids:  
 ![](https://github.com/biotm/paraBTM/raw/master/images/pic1.png) 
 
 
@@ -46,7 +46,10 @@ Experimental results validate that paraBTM effectively improve the processing sp
 
  
 
-Figure 1 The time cost of processing different input sizes in serial  
+<p align="center">
+Figure 1 The time cost of processing different input sizes in serial 	
+</p>
+ 
 ![](https://github.com/biotm/paraBTM/raw/master/images/pic4.png)  
 
 
