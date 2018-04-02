@@ -24,9 +24,9 @@ $7="detector"--Specify the detector(Random/Shortest-Bucket/Round-Robin/tmVar/dno
  
 ## Example of related files:
 1.	Input File in PubTator Format:
-	<PMID>|t|<TITLE>
-	<PMID>|a|<ABSTRACT>
-	<PMID><tab><OFFSET_START><tab><OFFSET_END><tab><Gene mention><tab>Gene<tab><Gene ID>
+	<PMID>|t|<TITLE>  
+	<PMID>|a|<ABSTRACT>  
+	<PMID><tab><OFFSET_START><tab><OFFSET_END><tab><Gene mention><tab>Gene<tab><Gene ID>  
 2.	Pmc ids:
 
 3.	Pmc nxml paths:
