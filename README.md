@@ -28,11 +28,16 @@ $7="detector"--Specify the detector(Random/Shortest-Bucket/Round-Robin/tmVar/dno
 	\<PMID\>|a|\<ABSTRACT\>  
 	\<PMID\>\<tab\>\<OFFSET_START\>\<tab\>\<OFFSET_END\>\<tab\>\<Gene mention\>\<tab\>Gene\<tab\>\<Gene ID\>  
 2.	Pmc ids:
-![](https://github.com/biotm/paraBTM/raw/master/images/pic1.png)
+![](https://github.com/biotm/paraBTM/raw/master/images/pic1.png) 
 
-3.	Pmc nxml paths:
+
+3.	Pmc nxml paths:  
+![](https://github.com/biotm/paraBTM/raw/master/images/pic2.png) 
+
  
-4.	Pmc2pmcid file:
+4.	Pmc2pmcid file:  
+![](https://github.com/biotm/paraBTM/raw/master/images/pic3.png)
+
  
 ## Result and analysis 
 
@@ -41,14 +46,19 @@ Experimental results validate that paraBTM effectively improve the processing sp
 
  
 
-Figure 1 The time cost of processing different input sizes in serial
+Figure 1 The time cost of processing different input sizes in serial  
+![](https://github.com/biotm/paraBTM/raw/master/images/pic4.png)  
+
 
  
-Figure 2 Effects of different load balancing strategies.
+Figure 2 Effects of different load balancing strategies.  
+![](https://github.com/biotm/paraBTM/raw/master/images/pic5.png)  
+
 
 
 Figure 2 shows the time spent on paraBTM processing with different numbers of parallel processes on an input dataset of 16 MBs (including 175 articles) which is composed of articles randomly selected from the 60K corpus. Figure 3 shows the loading strategy efficiencies.
  
-Figure 3 Load balancing efficiencies
+Figure 3 Load balancing efficiencies  
+![](https://github.com/biotm/paraBTM/raw/master/images/pic6.png)  
 
 
