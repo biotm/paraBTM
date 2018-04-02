@@ -8,7 +8,7 @@ Download biomedical NER tools tmVarJava, GNormPlusJava and DNorm-0.07 and instal
 ## Command line instructions  
 
 ### Example:
-yhbatch -n 64 -N 15 run_pmc_detectors_0125_eff.sh 64 15 $1 $2 $3 $4 $5 $6 $7
+yhbatch -n 64 -N 15 run_pmc_detectors.sh 64 15 $1 $2 $3 $4 $5 $6 $7
 ### Option Description:
 "	-n -- number of processes  
 "	-N -- number of nodes  
@@ -28,7 +28,7 @@ $7="detector"--Specify the detector(Random/Shortest-Bucket/Round-Robin/tmVar/dno
 	<PMID>|a|<ABSTRACT>
 	<PMID><tab><OFFSET_START><tab><OFFSET_END><tab><Gene mention><tab>Gene<tab><Gene ID>
 2.	Pmc ids:
- 
+
 3.	Pmc nxml paths:
  
 4.	Pmc2pmcid file:
