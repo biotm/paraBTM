@@ -28,7 +28,7 @@ $7="detector"--Specify the detector(Random/Shortest-Bucket/Round-Robin/tmVar/dno
 	<PMID>|a|<ABSTRACT>  
 	<PMID><tab><OFFSET_START><tab><OFFSET_END><tab><Gene mention><tab>Gene<tab><Gene ID>  
 2.	Pmc ids:
-
+![](https://github.com/biotm/paraBTM/tree/master/images/pic1.png)
 3.	Pmc nxml paths:
  
 4.	Pmc2pmcid file:
