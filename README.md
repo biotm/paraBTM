@@ -53,15 +53,18 @@ Figure 1 The time cost of processing different input sizes in serial
 ![](https://github.com/biotm/paraBTM/raw/master/images/pic4.png)  
 
 
- 
-Figure 2 Effects of different load balancing strategies.  
+<p align="center"> 
+Figure 2 Effects of different load balancing strategies.
+</p>
 ![](https://github.com/biotm/paraBTM/raw/master/images/pic5.png)  
 
 
 
 Figure 2 shows the time spent on paraBTM processing with different numbers of parallel processes on an input dataset of 16 MBs (including 175 articles) which is composed of articles randomly selected from the 60K corpus. Figure 3 shows the loading strategy efficiencies.
- 
-Figure 3 Load balancing efficiencies  
+
+<p align="center"> 
+Figure 3 Load balancing efficiencies 
+</p>
 ![](https://github.com/biotm/paraBTM/raw/master/images/pic6.png)  
 
 
